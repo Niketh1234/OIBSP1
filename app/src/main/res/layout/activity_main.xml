@@ -1,0 +1,49 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/cmEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Centimeters"
+        android:padding="16dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/toMeterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Convert to Meters" />
+
+    <EditText
+        android:id="@+id/mEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Meters"
+        android:padding="16dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/toCmButton"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert to Centimeters" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:width="200dp"
+        android:height="50dp"
+        android:text="Clear" />
+
+</LinearLayout>
